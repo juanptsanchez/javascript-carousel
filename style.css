@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+  *, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  height: 100%;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CAROUSEL */
+.carousel {
+  width: 600px;
+  height: 470px;
+  overflow: hidden;
+}
+
+/* IMAGES */
+.images {
+  display: flex;
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transition: transform 1s ease-in-out;
+  -webkit-transition: transform 1s ease-in-out;
+  -moz-transition: transform 1s ease-in-out;
+  -ms-transition: transform 1s ease-in-out;
+  -o-transition: transform 1s ease-in-out;
+}
+
+/* CONTROLS */
+.controls {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  padding-top: 10px;
+}
+.btn {
+  border: none;
+  background: none;
+}
+.btn i {
+  font-size: 40px;
+  color: #757575;
+  cursor: pointer;
+}
+
+.btn i:active {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+
+
